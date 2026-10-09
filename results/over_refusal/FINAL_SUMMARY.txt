@@ -1,0 +1,7 @@
+
+Over-refusal on XSTest safe prompts (refusal rate)
+config                                    prompts   baseline    steered
+Meta-Llama-3.1-8B-Instruct_L16_random         250      6.40%      4.09%
+Meta-Llama-3.1-8B-Instruct_L19_sae            250      6.40%      8.66%
+Qwen2.5-7B-Instruct_L12_sae                   250      3.60%      2.80%
+Qwen2.5-7B-Instruct_L14_random                250      4.00%      3.11%

@@ -1,0 +1,32 @@
+{
+  "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+  "layer_index": 16,
+  "token_mode": "last_user_token",
+  "num_benign_prompts": 100,
+  "languages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "ru",
+    "zh",
+    "ar",
+    "hi",
+    "pt",
+    "ja",
+    "ko",
+    "it",
+    "tr",
+    "pl",
+    "nl",
+    "sv",
+    "uk",
+    "vi",
+    "th",
+    "id"
+  ],
+  "vector_path": "./results/language_dim/Llama-3.1-8B-Instruct_layer16/last_user_token/vectors/language_vectors.pt",
+  "vector_definition": "r_lang = normalize(v_lang - c), where c = mean(v_lang over all languages)",
+  "dim_prompt_mode": "repeated_single",
+  "dim_base_prompt": "Explain photosynthesis in simple terms."
+}

@@ -1,0 +1,16 @@
+torch==2.8.0
+transformers==4.57.0
+accelerate==1.10.1
+datasets==3.6.0
+huggingface-hub==0.35.3
+safetensors==0.6.2
+sae-lens==6.16.0
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.16.2
+matplotlib==3.10.7
+seaborn==0.13.2
+tqdm
+httpx==0.28.1
+# only for the Goodfire API case study in a2.ipynb
+goodfire

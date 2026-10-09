@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.pt
+*.pth
+secrets/
+results/**/prompt_*.json
+results/**/transfer_experiments/*_prompt_*.json
+results/**/judge_comparison_results.json

@@ -1,0 +1,6 @@
+model,layer,total_layers,prompts_processed,total_tokens,mean_norm,min_norm,max_norm,norm_range
+Qwen/Qwen2.5-7B-Instruct,4,28,100,3515,34.71333570412518,22.25,64.5,42.25
+Qwen/Qwen2.5-7B-Instruct,12,28,100,3515,68.96301564722617,49.25,92.0,42.75
+Qwen/Qwen2.5-7B-Instruct,18,28,100,3515,89.89103840682787,64.5,120.5,56.0
+Qwen/Qwen2.5-7B-Instruct,20,28,100,3515,116.0045519203414,87.0,148.0,61.0
+Qwen/Qwen2.5-7B-Instruct,25,28,100,3515,308.49331436699856,240.0,412.0,172.0
